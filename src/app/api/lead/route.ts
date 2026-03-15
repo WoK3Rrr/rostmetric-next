@@ -175,25 +175,43 @@ export async function POST(req: Request) {
     const leadName = leadNameParts.join(" ");
 
     const complexPayload = [
-      {
-        name: leadName,
-        ...(pipelineId ? { pipeline_id: pipelineId } : {}),
-        ...(statusId ? { status_id: statusId } : {}),
-        _embedded: {
-          contacts: [
+  {
+    name: leadName,
+    ...(pipelineId ? { pipeline_id: pipelineId } : {}),
+    ...(statusId ? { status_id: statusId } : {}),
+    custom_fields_values: [
+      ...(niche
+        ? [
             {
-              first_name: name,
-              custom_fields_values: [
-                {
-                  field_code: "PHONE",
-                  values: [{ value: phoneDigits }],
-                },
-              ],
+              field_id: 2618859,
+              values: [{ value: niche }],
+            },
+          ]
+        : []),
+      ...(comment
+        ? [
+            {
+              field_id: 2618853,
+              values: [{ value: comment }],
+            },
+          ]
+        : []),
+    ],
+    _embedded: {
+      contacts: [
+        {
+          first_name: name,
+          custom_fields_values: [
+            {
+              field_code: "PHONE",
+              values: [{ value: phoneDigits }],
             },
           ],
         },
-      },
-    ];
+      ],
+    },
+  },
+];
 
     const complexResult = await amoFetchWithRefresh(
       "/api/v4/leads/complex",
