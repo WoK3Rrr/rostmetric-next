@@ -93,11 +93,12 @@ export default function RootLayout({
   </a>
 
   <a
-    href="/form"
-    className="inline-flex min-h-10 items-center justify-center whitespace-nowrap rounded-lg bg-primary px-3 sm:px-4 md:px-5 py-2 text-xs sm:text-sm font-medium text-white transition hover:opacity-90"
-  >
-    Обсудить проект
-  </a>
+  href="/form"
+  className="inline-flex min-h-10 items-center justify-center whitespace-nowrap rounded-lg bg-primary px-3 sm:px-4 md:px-5 py-2 text-xs sm:text-sm font-medium text-white transition hover:opacity-90"
+>
+  <span className="sm:hidden">Обсудить</span>
+  <span className="hidden sm:inline">Обсудить проект</span>
+</a>
 </div>
   </div>
 </header>
