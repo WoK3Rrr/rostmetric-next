@@ -1,24 +1,28 @@
+
+import type { ReactNode, SVGProps } from "react";
 // app/legal/page.jsx
 import Link from "next/link";
+
 
 export const metadata = {
   title: "Соглашения и юридические документы",
   description: "Перечень юридических документов и реквизиты оператора.",
 };
 
-const Placeholder = ({ children }) => (
+const Placeholder = ({ children }: { children: ReactNode }) => (
   <span className="inline-block border-b border-dashed border-gray-400/70 px-1 text-gray-700">
     {children}
   </span>
 );
 
-function FileIcon(props) {
+function FileIcon({ className, ...props }: SVGProps<SVGSVGElement>) {
   return (
     <svg
       viewBox="0 0 24 24"
       fill="none"
       aria-hidden="true"
-      className={`h-5 w-5 text-gray-400 ${props.className ?? ""}`}
+      className={`h-5 w-5 text-gray-400 ${className ?? ""}`}
+      {...props}
     >
       <path
         d="M7 3h6l4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z"

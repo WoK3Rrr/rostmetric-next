@@ -11,7 +11,7 @@ declare global {
 export default function ThankYouClient() {
   useEffect(() => {
     /// ID метрики сюда
-    ///const ID = ;
+    const ID = 106958946 ;
     if (window.ym) window.ym(ID, "reachGoal", "lead");
   }, []);
 

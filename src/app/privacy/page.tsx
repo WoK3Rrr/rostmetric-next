@@ -1,3 +1,4 @@
+import type { ReactNode, SVGProps } from "react";
 // app/privacy-policy/page.jsx
 export const metadata = {
   title: "Политика обработки персональных данных",
@@ -5,20 +6,7 @@ export const metadata = {
     "Политика в отношении обработки персональных данных (152-ФЗ).",
 };
 
-const REPL = ({ children }) => (
-  <span
-    style={{
-      display: "inline-block",
-      padding: "0 6px",
-      borderBottom: "1px dashed #777",
-      whiteSpace: "nowrap",
-    }}
-  >
-    {children}
-  </span>
-);
-
-const Note = ({ children }) => (
+const Note = ({ children }: { children: ReactNode }) => (
   <div
     style={{
       padding: "12px 14px",
@@ -31,6 +19,24 @@ const Note = ({ children }) => (
     {children}
   </div>
 );
+
+const REPL = ({ children }: { children: ReactNode }) => (
+  <span
+    style={{
+      display: "inline-block",
+      borderBottom: "1px dashed rgba(156, 163, 175, 0.7)",
+      padding: "0 4px",
+      color: "#374151",
+    }}
+  >
+    {children}
+  </span>
+);
+
+
+
+
+
 
 export default function PrivacyPolicyPage() {
   return (

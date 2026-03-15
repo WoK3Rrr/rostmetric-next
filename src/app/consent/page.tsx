@@ -1,5 +1,6 @@
 // app/consent/page.jsx
 import Link from "next/link";
+import type { ReactNode } from "react";
 
 export const metadata = {
   title: "Согласие на обработку персональных данных",
@@ -7,11 +8,11 @@ export const metadata = {
     "Согласие субъекта персональных данных на обработку в соответствии с 152-ФЗ.",
 };
 
-const Placeholder = ({ children }) => (
+const Placeholder = ({ children }: { children: ReactNode }) => (
   <span className="inline-block border-b border-dashed border-gray-400/70 px-1 text-gray-800">
     {children}
   </span>
-);
+  );
 
 export default function ConsentPage() {
   return (
