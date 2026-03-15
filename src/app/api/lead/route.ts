@@ -217,17 +217,26 @@ export async function POST(req: Request) {
     }
 
     const complexJson = JSON.parse(complexText);
-    const leadId =
-      complexJson?._embedded?.leads?.[0]?.id ??
-      complexJson?._embedded?.items?.[0]?.id;
 
-    if (!leadId) {
-      console.error("AMO COMPLEX CREATE: lead id missing", complexJson);
-      return NextResponse.json(
-        { ok: false, error: "amoCRM не вернула ID лида" },
-        { status: 502 }
-      );
-    }
+console.log("AMO COMPLEX RAW RESPONSE:", JSON.stringify(complexJson, null, 2));
+
+const leadId =
+  complexJson?.id ??
+  complexJson?._embedded?.leads?.[0]?.id ??
+  complexJson?._embedded?.items?.[0]?.id ??
+  complexJson?.leads?.[0]?.id ??
+  (Array.isArray(complexJson) ? complexJson[0]?.id : undefined);
+
+if (!leadId) {
+  return NextResponse.json(
+    {
+      ok: false,
+      error: "amoCRM не вернула ID лида",
+      amoResponse: complexJson,
+    },
+    { status: 502 }
+  );
+}
 
     const noteLines = [
       `Имя: ${name}`,
