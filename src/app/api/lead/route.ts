@@ -278,10 +278,15 @@ export async function POST(req: Request) {
 
     return NextResponse.json({ ok: true, leadId }, { status: 200 });
   } catch (e: any) {
-    console.error("LEAD API ERROR:", e);
-    return NextResponse.json(
-      { ok: false, error: "Ошибка на сервере" },
-      { status: 500 }
+  console.error("LEAD API ERROR FULL:", e);
+
+  return NextResponse.json(
+    {
+      ok: false,
+      error: e?.message || "Ошибка на сервере",
+      stack: process.env.NODE_ENV !== "production" ? e?.stack : undefined,
+    },
+    { status: 500 }
     );
   }
 }
