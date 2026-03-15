@@ -84,21 +84,21 @@ export default function RootLayout({
       </a>
     </nav>
 
-    <div className="flex items-center gap-1 sm:gap-4">
-      <a
-        href="/contacts"
-        className="bg-gradient-to-r from-blue-800 via-blue-600 to-teal-500 text-white px-4 md:px-5 py-2 rounded-lg text-sm font-medium shadow-md hover:opacity-90 hover:scale-[1.02] transition"
-      >
-        Контакты
-      </a>
+    <div className="flex items-center gap-2 sm:gap-4">
+  <a
+    href="/contacts"
+    className="inline-flex min-h-10 items-center justify-center whitespace-nowrap rounded-lg bg-gradient-to-r from-blue-800 via-blue-600 to-teal-500 px-3 sm:px-4 md:px-5 py-2 text-xs sm:text-sm font-medium text-white shadow-md transition hover:scale-[1.02] hover:opacity-90"
+  >
+    Контакты
+  </a>
 
-      <a
-        href="/form"
-        className="bg-primary text-white px-4 md:px-5 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition"
-      >
-        Обсудить проект
-      </a>
-    </div>
+  <a
+    href="/form"
+    className="inline-flex min-h-10 items-center justify-center whitespace-nowrap rounded-lg bg-primary px-3 sm:px-4 md:px-5 py-2 text-xs sm:text-sm font-medium text-white transition hover:opacity-90"
+  >
+    Обсудить проект
+  </a>
+</div>
   </div>
 </header>
 
