@@ -87,7 +87,7 @@ export default function ContactsPage() {
 
 
               <a
-                href="#"
+                href="https://www.youtube.com/@rostmetric"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white border border-gray-100 rounded-2xl p-6 hover:shadow-lg transition flex flex-col items-center gap-3"
@@ -97,7 +97,7 @@ export default function ContactsPage() {
               </a>
 
               <a
-                href="#"
+                href="https://www.rutube.ru/@rostmetric"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white border border-gray-100 rounded-2xl p-6 hover:shadow-lg transition flex flex-col items-center gap-3"
