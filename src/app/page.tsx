@@ -62,8 +62,7 @@ export default function HomePage() {
       Строим систему продаж на основе <span className="text-secondary">amoCRM</span> за 1–3 недели — Рост Метрик
     </h1>
     <p className="text-lg text-gray-600 mb-10 max-w-2xl mx-auto">
-      Воронки, автоматизация, интеграция телефонии и мессенджеров.  
-      Без хаоса. Под ваш реальный процесс продаж, а не теоритический.
+      Соединяем трафик, продажи и аналитику в одну систему роста бизнес-показателей
     </p>
 
     <a href="/form" className="bg-primary text-white px-8 py-4 rounded-xl text-lg font-semibold hover:opacity-90 transition">
