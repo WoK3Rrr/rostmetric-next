@@ -59,10 +59,10 @@ export default function HomePage() {
   <div className="max-w-5xl mx-auto px-6 text-center relative z-10">
 
     <h1 className="text-4xl md:text-6xl 2xl:text-7xl font-extrabold leading-tight mb-6">
-      Строим систему продаж на основе <span className="text-secondary">amoCRM</span> за 1–3 недели — Рост Метрик
+      Строим управляемую систему продаж на базе <span className="text-secondary">amoCRM</span> за 1–3 недели
     </h1>
     <p className="text-lg text-gray-600 mb-10 max-w-2xl mx-auto">
-      Соединяем трафик, продажи и аналитику в одну систему роста бизнес-показателей
+      Соединяем трафик, продажи и аналитику в одну управляемую систему, чтобы привлекать клиентов, наводить порядок в воронке и устранять потери денег.
     </p>
 
     <a href="/form" className="bg-primary text-white px-8 py-4 rounded-xl text-lg font-semibold hover:opacity-90 transition">
@@ -414,7 +414,7 @@ export default function HomePage() {
 <section id="process" className="bg-gray-50 py-24">
   <div className="max-w-4xl mx-auto px-6">
     <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
-      Как проходит работа — РостМетрик 
+      Как проходит работа 
     </h2>
 
 <p className="text-gray-600 text-center mt-4 mb-6">
@@ -431,7 +431,7 @@ export default function HomePage() {
           <div>
             <h3 className="text-lg font-semibold mb-1">Диагностика</h3>
             <p className="text-gray-600">
-              Анализируем текущую обработку заявок и точки потерь.
+              Анализируем текущую обработку заявок, воронку и точки потерь.
             </p>
           </div>
         </div>
@@ -445,7 +445,7 @@ export default function HomePage() {
           <div>
             <h3 className="text-lg font-semibold mb-1">Проектирование воронки</h3>
             <p className="text-gray-600">
-              Строим этапы, статусы и логику движения сделок под ваш процесс.
+              Выстраиваем этапы, статусы и логику движения сделки под ваш процесс.
             </p>
           </div>
         </div>
@@ -459,7 +459,7 @@ export default function HomePage() {
           <div>
             <h3 className="text-lg font-semibold mb-1">Настройка amoCRM</h3>
             <p className="text-gray-600">
-              Воронки, поля, автоматизации, задачи и нужные интеграции.
+              Настраиваем воронки, поля, автоматизации, задачи и нужные интеграции. 
             </p>
           </div>
         </div>
@@ -688,8 +688,7 @@ export default function HomePage() {
     </h2>
 
     <p className="text-lg md:text-xl text-white/80 max-w-3xl mx-auto mb-12">
-      Мы в РостМетрик проанализируем вашу текущую модель продаж, выявим узкие места
-и настроим amoCRM так, чтобы ваш бизнес рос предсказуемо и стабильно. Мы продаем свои решения только если они окупятся для вашего бизнеса. Мы снижаем риски для клиентов, и не берем деньги просто "за процесс"
+      Сначала разбираем, как у вас устроены продажи, где теряются заявки и деньги, а потом настраиваем amoCRM под реальный процесс бизнеса. Без лишних действий и формального внедрения ради галочки.
     </p>
 
     <a
