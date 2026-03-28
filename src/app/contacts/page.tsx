@@ -180,6 +180,8 @@ export default function ContactsPage() {
       <p className="font-semibold">Telegram</p>
     </a>
 
+
+    {/*
     <a
       href="https://www.youtube.com/@rostmetric"
       target="_blank"
@@ -199,7 +201,8 @@ export default function ContactsPage() {
       <Play className="w-6 h-6 text-secondary" />
       <p className="font-semibold">Rutube</p>
     </a>
-
+    */}
+    
     <a
       href="https://vc.ru/rostmetric"
       target="_blank"
