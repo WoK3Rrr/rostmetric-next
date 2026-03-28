@@ -199,8 +199,7 @@ ym(106958946, "init", {
           <li>
             <a
               href="https://rostmetric.ru/sipuni-cert"
-              target="_blank"
-              rel="noopener noreferrer"
+              
               className="text-gray-600 hover:text-secondary hover:underline transition"
             >
               Партнёр SIPUNI
