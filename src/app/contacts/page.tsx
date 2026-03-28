@@ -165,58 +165,52 @@ export default function ContactsPage() {
           </section>
 
 <section className="mb-16">
-            <h2 className="text-xl font-semibold mb-6 text-center">
-              Где читать и смотреть
-            </h2>
+  <h2 className="text-xl font-semibold mb-6 text-center">
+    Где читать и смотреть
+  </h2>
 
-            <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-              <a
-                href="https://t.me/rostmetric"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-white border border-gray-100 rounded-2xl p-6 hover:shadow-lg transition flex flex-col items-center gap-3"
-              >
-                <Send className="w-6 h-6 text-secondary" />
-                <p className="font-semibold">Telegram</p>
-              </a>
+  <div className="flex flex-wrap justify-center gap-6">
+    <a
+      href="https://t.me/rostmetric"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-full sm:w-[220px] bg-white border border-gray-100 rounded-2xl p-6 hover:shadow-lg transition flex flex-col items-center gap-3"
+    >
+      <Send className="w-6 h-6 text-secondary" />
+      <p className="font-semibold">Telegram</p>
+    </a>
 
-              
+    <a
+      href="https://www.youtube.com/@rostmetric"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-full sm:w-[220px] bg-white border border-gray-100 rounded-2xl p-6 hover:shadow-lg transition flex flex-col items-center gap-3"
+    >
+      <Youtube className="w-6 h-6 text-secondary" />
+      <p className="font-semibold">YouTube</p>
+    </a>
 
+    <a
+      href="https://www.rutube.ru/@rostmetric"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-full sm:w-[220px] bg-white border border-gray-100 rounded-2xl p-6 hover:shadow-lg transition flex flex-col items-center gap-3"
+    >
+      <Play className="w-6 h-6 text-secondary" />
+      <p className="font-semibold">Rutube</p>
+    </a>
 
-
-              <a
-                href="https://www.youtube.com/@rostmetric"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-white border border-gray-100 rounded-2xl p-6 hover:shadow-lg transition flex flex-col items-center gap-3"
-              >
-                <Youtube className="w-6 h-6 text-secondary" />
-                <p className="font-semibold">YouTube</p>
-              </a>
-
-              <a
-                href="https://www.rutube.ru/@rostmetric"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-white border border-gray-100 rounded-2xl p-6 hover:shadow-lg transition flex flex-col items-center gap-3"
-              >
-                <Play className="w-6 h-6 text-secondary" />
-                <p className="font-semibold">Rutube</p>
-              </a>
-
-              <a
-  href="https://vc.ru/rostmetric"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-white border border-gray-100 rounded-2xl p-6 hover:shadow-lg transition flex flex-col items-center gap-3"
->
-  <Globe className="w-6 h-6 text-secondary" />
-  <p className="font-semibold">VC.ru</p>
-</a>
-
-
-            </div>
-          </section>
+    <a
+      href="https://vc.ru/rostmetric"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-full sm:w-[220px] bg-white border border-gray-100 rounded-2xl p-6 hover:shadow-lg transition flex flex-col items-center gap-3"
+    >
+      <Globe className="w-6 h-6 text-secondary" />
+      <p className="font-semibold">VC.ru</p>
+    </a>
+  </div>
+</section>
 
           <div className="text-center">
             <a
