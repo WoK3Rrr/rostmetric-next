@@ -45,7 +45,7 @@ export default function yadcertPage() {
 <main className="py-16">
     <div className="max-w-4xl mx-auto px-6">
       <div className="mb-10">
-        <a href="/yad-cert" className="text-sm text-gray-500 hover:text-secondary transition">← На главную</a>
+        <a href="/" className="text-sm text-gray-500 hover:text-secondary transition">← На главную</a>
         <h1 className="text-3xl md:text-4xl font-bold mt-4">Сертификат специалиста Яндекс Директ</h1>
         <p className="text-gray-600 mt-3 max-w-2xl">
           Здесь размещено подтверждение партнёрства и сертификации. При необходимости можем предоставить дополнительные данные по запросу.
