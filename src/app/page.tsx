@@ -532,7 +532,7 @@ export default function HomePage() {
 
           <div className="mt-6 flex flex-wrap justify-center items-center gap-3">
           <span className="px-4 py-2 rounded-full bg-gray-500 text-white text-base md:text-lg font-semibold shadow-sm">
-              источники
+              сайт
             </span>
              <span className="text-gray-400 text-xl md:text-2xl">→</span>
             <span className="px-4 py-2 rounded-full bg-gray-900 text-white text-base md:text-lg font-semibold shadow-sm">
@@ -551,9 +551,9 @@ export default function HomePage() {
           <div className="mt-7 mx-auto max-w-2xl h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent" />
 
           <div className="mt-7 text-lg md:text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto">
-            Мы решаем задачи. Наша миссия — помогать бизнесу{" "}
+            Собираем сайт, трафик и CRM в единую систему,{" "}
             <span className="text-gray-900 font-medium">
-              органично расти и масштабироваться
+              чтобы заявки не терялись, а продажи были управляемыми,
             </span>{" "}
             без лишних сложностей.
           </div>
@@ -579,7 +579,7 @@ export default function HomePage() {
       <div className="bg-white border border-gray-100 rounded-2xl p-6 hover:shadow-lg transition h-full">
         <p className="font-semibold text-gray-900">Трафик</p>
         <p className="text-sm text-gray-600 mt-2">
-          Настраиваем вам эффективный платный трафик (Директ, Авито). При необходимости, разрабатываем базовый сайт или лендинг на коде next.js с возможностью масштабироваться в SEO продвижение. 
+          Настраиваем платный трафик и готовим посадочную страницу под него. Чтобы заявки приходили в понятную и управляемую систему — собираем рабочую связку сайта, заявок и CRM. 
         </p>
       </div>
 
@@ -616,10 +616,9 @@ export default function HomePage() {
           <div>
             <h3 className="text-lg font-semibold mb-2">Опыт и контекст</h3>
             <p className="text-gray-600">
-              5 лет в продажах, наблюдали десятки воронок и систем. 3 года в прямых b2b-продажах. Маркетинговая и it-инфраструктруная компетенция
-              . Понимаем, как думает собственник и как реально
-              работает отдел продаж.
+              Смотрим на бизнес не только как на рекламу или CRM. Понимаем логику продаж, маркетинга и внутренней операционной работы. Поэтому смотрим не на отдельный инструмент, а на всю систему: от входящего спроса до обработки заявки и контроля.
             </p>
+
           </div>
         </div>
       </a>
@@ -640,8 +639,7 @@ export default function HomePage() {
           <div>
             <h3 className="text-lg font-semibold mb-2">Системный подход</h3>
             <p className="text-gray-600">
-              Настраиваем CRM под ваш процесс: этапы, статусы, поля, автоматизации. Без
-              “лишних функций” и перегруза.
+              Настраиваем CRM под ваш процесс, а не по шаблону: этапы, поля, автоматизации, задачи и правила обработки заявок. Оставляем только то, что действительно помогает продавать и контролировать.
             </p>
           </div>
         </div>
@@ -663,8 +661,7 @@ export default function HomePage() {
           <div>
             <h3 className="text-lg font-semibold mb-2">Результат без хаоса</h3>
             <p className="text-gray-600">
-              CRM становится рабочим инструментом: контроль обработки заявок,
-              прозрачность, единые правила и стабильность.
+              В итоге собственник получает не просто CRM, а рабочую систему: заявки не теряются, менеджеры работают по понятным правилам, а воронка становится прозрачной и управляемой.
             </p>
           </div>
         </div>
