@@ -198,7 +198,7 @@ ym(106958946, "init", {
           </li>
           <li>
             <a
-              href="https://sipuni.com/"
+              href="https://rostmetric.ru/sipuni-cert"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-secondary hover:underline transition"
