@@ -166,7 +166,7 @@ export default function ContactsPage() {
 
 <section className="mb-16">
             <h2 className="text-xl font-semibold mb-6 text-center">
-              Социальные сети и каналы
+              Где читать и смотреть
             </h2>
 
             <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
@@ -177,18 +177,10 @@ export default function ContactsPage() {
                 className="bg-white border border-gray-100 rounded-2xl p-6 hover:shadow-lg transition flex flex-col items-center gap-3"
               >
                 <Send className="w-6 h-6 text-secondary" />
-                <p className="font-semibold">Telegram-канал</p>
+                <p className="font-semibold">Telegram</p>
               </a>
 
-              <a
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-white border border-gray-100 rounded-2xl p-6 hover:shadow-lg transition flex flex-col items-center gap-3"
-              >
-                <Radio className="w-6 h-6 text-secondary" />
-                <p className="font-semibold">Дзен</p>
-              </a>
+              
 
 
 
