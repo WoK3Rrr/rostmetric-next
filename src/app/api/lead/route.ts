@@ -174,29 +174,33 @@ export async function POST(req: Request) {
     if (niche) leadNameParts.push(`• ${niche}`);
     const leadName = leadNameParts.join(" ");
 
-    const complexPayload = [
+    const leadCustomFields = [
+  ...(niche
+    ? [
+        {
+          field_id: 2618859,
+          values: [{ value: niche }],
+        },
+      ]
+    : []),
+  ...(comment
+    ? [
+        {
+          field_id: 2618853,
+          values: [{ value: comment }],
+        },
+      ]
+    : []),
+];
+
+const complexPayload = [
   {
     name: leadName,
     ...(pipelineId ? { pipeline_id: pipelineId } : {}),
     ...(statusId ? { status_id: statusId } : {}),
-    custom_fields_values: [
-      ...(niche
-        ? [
-            {
-              field_id: 2618859,
-              values: [{ value: niche }],
-            },
-          ]
-        : []),
-      ...(comment
-        ? [
-            {
-              field_id: 2618853,
-              values: [{ value: comment }],
-            },
-          ]
-        : []),
-    ],
+    ...(leadCustomFields.length > 0
+      ? { custom_fields_values: leadCustomFields }
+      : {}),
     _embedded: {
       contacts: [
         {
