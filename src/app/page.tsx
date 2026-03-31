@@ -76,12 +76,13 @@ export default function HomePage() {
   <div className="max-w-5xl mx-auto px-6 text-center">
 
     <h2 className="text-3xl md:text-4xl font-bold mb-4">
-      Почему реклама без системы не работает
+      Почему трафик и CRM без системы не дают роста
     </h2>
 
     
     <p className="text-gray-600 max-w-3xl mx-auto mb-14">
-      Трафик, то есть рекламная активность, усиливает то, что уже есть внутри бизнеса. Если нет выстроенной воронки и стандартов обработки заявок — масштабируется не прибыль, а хаос.
+      Трафик усиливает не продажи, а текущую систему внутри бизнеса.
+Если воронка не выстроена, а заявки обрабатываются хаотично — масштабируется не прибыль, а хаос и потери.
     </p>
 
     <p className="text-gray-600 max-w-3xl mx-auto mb-14">
@@ -111,7 +112,7 @@ export default function HomePage() {
 </svg>
           </div>
           <div>
-            <p className="text-gray-900 font-semibold">Заявки теряются</p>
+            <p className="text-gray-900 font-semibold">Заявки теряются и не доходят до сделки</p>
             <p className="text-gray-600 text-sm mt-1">
               Нет единого места, где фиксируется обращение — часть лидов просто исчезает
             </p>
@@ -145,7 +146,7 @@ export default function HomePage() {
 </svg>
           </div>
           <div>
-            <p className="text-gray-900 font-semibold">Нет контроля менеджеров</p>
+            <p className="text-gray-900 font-semibold">Непонятно, что делают менеджеры и нет контроля</p>
             <p className="text-gray-600 text-sm mt-1">
               Сложно понять, кто что делает с заявкой и почему сделки зависают
             </p>
