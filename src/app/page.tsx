@@ -59,10 +59,10 @@ export default function HomePage() {
   <div className="max-w-5xl mx-auto px-6 text-center relative z-10">
 
     <h1 className="text-4xl md:text-6xl 2xl:text-7xl font-extrabold leading-tight mb-6">
-      Строим управляемую систему продаж на базе <span className="text-secondary">amoCRM</span> за 1–3 недели
+      Настраиваем сайт, заявки и <span className="text-secondary">amoCRM</span> за 1–3 недели в в одну рабочую систему продаж
     </h1>
     <p className="text-lg text-gray-600 mb-10 max-w-2xl mx-auto">
-      Соединяем трафик, продажи и аналитику в одну управляемую систему, чтобы привлекать клиентов, наводить порядок в воронке и устранять потери денег.
+      Соединяем маркетинг, продажи и аналитику в одну управляемую систему, чтобы привлекать клиентов, наводить порядок в воронке и устранять потери денег.
     </p>
 
     <a href="/form" className="bg-primary text-white px-8 py-4 rounded-xl text-lg font-semibold hover:opacity-90 transition">
