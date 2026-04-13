@@ -6,9 +6,9 @@ import Link from "next/link";
 
 export const metadata = {
   
-  title: "РостМетрик — внедрение amoCRM и систем продаж",
+  title: "РостМетрик — Аутсорсинг RevOps и системы продаж на amoCRM",
   
-  description: "РостМетрик — настройка воронок и рост продаж. Строим систему в amoCRM за 1–3 недели. Без хаоса.",
+  description: "РостМетрик — Соединяем маркетинг, продажи и аналитику в одну управляемую систему",
   
   alternates: { canonical: "https://rostmetric.ru/" },
 
